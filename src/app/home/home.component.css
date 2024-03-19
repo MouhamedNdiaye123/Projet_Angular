@@ -1,0 +1,18 @@
+.home{
+    background: no-repeat center/cover url(../../assets/img-ang.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 90vh;
+}
+.home-content h1{
+    color: white;
+    font-size: 45px;
+    margin: 10px 0;
+}
+.home-content p{
+    font-size: 15px;
+    color: white;
+    margin: 15px 0;
+}
