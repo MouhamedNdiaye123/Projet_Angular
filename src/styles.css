@@ -4,11 +4,24 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-
+    text-decoration: none;
+    border: none;
+    resize: none;
+    font-family: "Poppins", sans-serif;
 }
 section{
     padding: 50px 10%;
 }
-img{
-    width: 100%;
+.btn{
+    display: inline-block;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    transition: .2s ease-in-out;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
 }

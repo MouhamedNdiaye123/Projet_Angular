@@ -1,0 +1,10 @@
+<section class="product">
+    <a routerLink="product-detail" class="product-container">
+            <div class="product-card" *ngFor="let product of products">
+                <img src="{{product.imageUrl}}" alt="{{product.prodName}}">
+                <h3>{{product.prodName}}</h3>
+                <p>{{product.price}} cfa</p>
+                <a href="" class="btn">add to card</a>
+            </div>
+    </a>
+</section>
